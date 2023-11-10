@@ -1,0 +1,129 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    margin: 400px 300px;
+ border-radius: 16px;
+ width: 500px;
+}
+.first{
+    margin:20px 50px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color:hsl(217, 12%, 63%) ;
+    padding: 10px;
+}
+.sec{
+  color:hsl(0, 0%, 100%) ;
+  margin: 50px ;
+}
+.third{
+  color: hsl(217, 12%, 63%);
+}
+.man{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.circle{
+  height: 20px;
+  width: 20px;
+  border-radius: 50% ;
+  background-color:hsl(216, 12%, 8%) ;
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  cursor:pointer;
+  text-align: center;
+  
+}
+.circle:hover{
+  background-color: hsl(25, 97%, 53%);
+}
+.yol{
+  height: 20px;
+  width: 20px;
+  border-radius: 50% ;
+  background-color:hsl(216, 12%, 8%) ;
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.yol:hover{
+  background-color:hsl(25, 97%, 53%) ;
+}
+.lol{
+  height: 20px;
+  width: 20px;
+  border-radius: 50% ;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.lol:hover{
+  background-color:hsl(25, 97%, 53%) ;
+}
+.vol{
+  height: 20px;
+  width: 20px;
+  border-radius: 50% ;
+  background-color: hsl(216, 12%, 8%) ;
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  margin: 15px;
+padding: 10px;
+text-align: center;
+  
+}
+.vol:hover{
+  background-color:hsl(25, 97%, 53%) ;
+}
+.bol{
+  height: 20px;
+  width: 20px;
+  border-radius: 50% ;
+  background-color: hsl(216, 12%, 8%) ;
+
+  color: hsl(0, 0%, 100%);
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  
+}
+.bol:hover{
+  background-color:hsl(25, 97%, 53%)  ;
+
+}
+.rot {
+  display: flex;
+  border-radius: 16px;
+  color:hsl(25, 97%, 53%) ;
+  background-color:hsl(0, 0%, 100%) ;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  width: 350px;
+  height: 30px;
+  padding: 10px;
+  gap: 10px;
+}
+.rot:hover{
+  background-color: hsl(25, 97%, 53%);
+  color:hsl(0, 0%, 100%) ;
+}
